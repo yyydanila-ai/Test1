@@ -1,1 +1,1 @@
-game.Players.LocalPlayer.CharacterAdded:Connect(function(c)c:WaitForChild("Humanoid").WalkSpeed=4 end)
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
